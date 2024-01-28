@@ -1,0 +1,125 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;  
+    border: 0;
+    box-sizing: border-box;
+}
+  
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+body,
+html {
+    height: 100%;
+    line-height: 1;
+    font-size: 14px;
+    background-color: #1C2E14;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.Nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10%;
+    background-color: #1C2E14;
+}
+
+.wrapper {
+    background-color: #1C2E14;
+    /* height: 90vh; */
+}
+ 
+.title {
+    font-size: 30px;
+    font-weight: 7  00;
+    color: aliceblue;
+    margin: 0px 0px 30px 0px;
+}
+/* .image-desc {
+    justify-content: center;
+    color: #1C2E14;
+} */
+
+
+.image-slider {
+    padding: 0 0 70px 0;
+}
+
+.image-slider-wrapper {
+
+}
+
+.image-slider-slide {
+    /* display: flex;
+    flex-direction: column; */
+
+}
+
+.image-slider_image {
+    text-align: center;
+}
+
+ .image-slider_image img{
+    width: auto;
+    height: 75vh;
+} 
+
+ .swiper-button-next::after,
+ .swiper-button-prev::after {
+    color: #1C2E14;
+    /* font-size: 40px; */
+}
+
+/* Пагинация */
+.swiper-pagination {
+    bottom: 0;
+}
+
+.swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+/* Скролл */
+/* .swiper-scrollbar-drag {
+    cursor: pointer;
+    background-color: #fff;
+} */
+
+/* автоширина */
+.image-slider .swiper-slide {
+    width: auto;
+    height: 80vh;
+}
+
+
+
+
